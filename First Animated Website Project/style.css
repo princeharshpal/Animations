@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.section1 {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+}
+nav h2 i {
+  display: inline-block;
+  margin-right: 10px;
+  transform: rotate(45deg);
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.right h4 {
+  cursor: pointer;
+  font-weight: 500;
+}
+.right button {
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.right button:hover {
+  background-color: black;
+  color: white;
+  transition: all ease 0.5s;
+}
+.center {
+  display: flex;
+  padding: 1.5rem 2rem;
+  height: 70%;
+  width: 100%;
+}
+.center .left {
+  height: 100%;
+  width: 55%;
+}
+.center .left h1 {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+.center .left p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  margin-right: 18rem;
+}
+.center .left button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.center .left button:hover {
+  color: black;
+  font-weight: 600;
+  border: 2px solid black;
+  background-color: white;
+}
+.center .right {
+  position: relative;
+  height: 100%;
+  width: 45%;
+}
+.center .right img {
+  position: absolute;
+  right: 0;
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
+}
+.logos {
+  padding: 0 2rem;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logos img {
+  background-color: transparent;
+  height: 7rem;
+  width: 10rem;
+}
+.section2 {
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+}
+.services {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.services span {
+  display: inline-block;
+  background-color: #b9ff66;
+  padding: 0.1rem 0.4rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+.services p {
+  line-height: 1.25rem;
+}
+.section2 .boxes {
+  display: flex;
+  gap: 10%;
+  flex-wrap: wrap;
+  height: 80%;
+  width: 100%;
+}
+.section2 .boxes .box {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    display: flex;
+    width: 45%;
+    height: 45%;
+    box-shadow: 0 10px 0 black;
+}
+
+.section2 .boxes .box .left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section2 .boxes .box .left .learnMore div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section2 .boxes .box .left .learnMore span {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.section2 .boxes .box .right {
+  width: 40%;
+  height: 100%;
+}
+.section2 .boxes .box .right img {
+  height: 80%;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.black img{
+    filter: invert(1);
+}
+.black .learnMore div span{
+    background-color: #fff;
+    color: black;
+}
+.section3 {
+    position: relative;
+    background-color: #f3f3f3;
+    margin: 1rem 2rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    padding: 4rem;
+}
+.section3 .top p{
+    margin-top: 2rem;
+    width: 30rem;
+}
+.section3 .top button{
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem; 
+  border-radius: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.section3 .top button:hover{
+  background-color: #fff;
+  border: 2px solid black;
+  color: black;
+}
+.section3 .top img{
+    top: 10%;
+    right: 10%;
+    height: 90%;
+    position: absolute;
+}
+
+.studyBoxes{
+    border-radius: 2rem;
+    padding: 3rem 2rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 3rem 2rem;
+    margin-bottom: 3rem;
+}
+.studyBoxes .studyBox{
+    padding:0 4rem;
+    border-right: 2px solid white;
+    width: 33%;
+}
+.studyBoxes .studyBox .learnMore{
+    margin-top: 1.5rem;
+    color: #b9ff66;
+}
+.studyBoxes .studyBox .learnMore i{
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+#lastBox{
+    border: none;
+}

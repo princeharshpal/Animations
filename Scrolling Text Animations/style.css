@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  color: white;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+}
+#page2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.move{
+  display: flex;
+  overflow: hidden ;
+}
+.marque{
+  flex-shrink:0;
+  padding: 1vw 2vw;
+  background-color: #d9ff06;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 3vw;
+  height: 10vw;
+  color: black;
+  transform: translateX(-100%);
+}
+.marque img{
+height: 3vw;
+margin-top: 10px;
+}
